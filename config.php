@@ -3,7 +3,7 @@ require 'environment.php';
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/calculadora-telzir/");
+	define("BASE_URL", "http://calculadora-telzir.herokuapp.com/");
 // 	$config['dbname'] = 'dbname';
 // 	$config['host'] = 'localhost';
 // 	$config['dbuser'] = 'root';
