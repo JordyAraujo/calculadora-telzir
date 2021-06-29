@@ -33,7 +33,30 @@
   <link href="<?= BASE_URL ?>assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- CSS Files -->
-  <link href="<?= BASE_URL ?>assets/css/blk-design-system.css" rel="stylesheet" />
+  <link href="<?= BASE_URL ?>assets/css/blk-design-system.css" rel="stylesheet" /> 
+  <!--   Core JS Files   -->
+  <script src="<?= BASE_URL ?>assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="<?= BASE_URL ?>assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="<?= BASE_URL ?>assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
+  <script src="<?= BASE_URL ?>assets/js/blk-design-system.min.js" type="text/javascript"></script>
+  <script src="<?= BASE_URL ?>assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="<?= BASE_URL ?>assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="<?= BASE_URL ?>assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!-- Chart JS -->
+  <script src="<?= BASE_URL ?>assets/js/plugins/chartjs.min.js"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="<?= BASE_URL ?>assets/js/plugins/moment.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      $('#teste-btn').click(function() {
+        $('#teste').html('Show de las pelotas');
+      });
+    })
+  </script>
 </head>
 
 <body class="register-page">
