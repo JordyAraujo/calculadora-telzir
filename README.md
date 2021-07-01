@@ -28,7 +28,7 @@ Contém definições de banco. Descomentar tudo e preencher configurações loca
 
 Arquivo de configuração do Servidor Web Apache. Trocar "PHP_base" pelo nome do seu sistema em desenvolvimento. Se em produção utilize
 ``` PHP
-RewriteRule ^(.*)$ /PHP_base/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
 ```
 
 ## MVC:
