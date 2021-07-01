@@ -199,12 +199,7 @@
   <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
   <script src="<?= BASE_URL ?>assets/js/plugins/moment.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <script>
-    $(document).ready(function() {
-      $('#teste-btn').click(function() {
-        $('#teste').html('Resultados aqui');
-      });
-    })
-  </script>
+  <!-- Custom JS scripts -->
+  <script src="<?= BASE_URL ?>assets/js/custom.js" type="text/javascript"></script>
 </body>
 </html>
