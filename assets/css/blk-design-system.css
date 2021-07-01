@@ -3838,6 +3838,10 @@ input[type="button"].btn-block {
     margin-right: -1px;
 }
 
+.input-group-prepend.disabled {
+    background-color: #1d253b;
+}
+
 .input-group-append {
     margin-left: -1px;
 }
