@@ -5,19 +5,6 @@ var $tempo = $('#tempo');
 var $botaoCalcular = $('#botaoCalcular');
 var $resultado = $('#resultado');
 
-// var dados = {
-//     origem: $origem.val(),
-//     destino: $destino.val(),
-//     plano: $plano.val(),
-//     tempo: $tempo.val(),
-//     precoPorMinuto: '0',
-//     precoPorMinutoPlano: '0',
-//     valorFinal: '0',
-//     valorFinalPlano: '0',
-//     tempoExcedente: '0',
-//     msg: ""
-// };
-
 var origem = $origem.val();
 var destino = $destino.val();
 var plano = $plano.val();
@@ -87,8 +74,7 @@ const calcularValoresFinais = () => {
     }
 }
 
-const processarDados = e => {
-    e.preventDefault();
+const processarDados = () => {
     $origem = $('#origem');
     $destino = $('#destino');
     $plano = $('#plano');
