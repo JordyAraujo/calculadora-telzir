@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="<?= BASE_URL ?>assets/img/favicon.png">
     
     <title>404!</title>    
 

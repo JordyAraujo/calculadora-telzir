@@ -17,25 +17,6 @@ var valorFinalPlano = 0;
 var tempoExcedente = 0;
 var msg = '';
 
-// const teste = e => {
-//     e.preventDefault()
-//     console.log(`Origem = ${origem}`);
-//     console.log(`Destino = ${destino}`);
-//     console.log(`Plano = ${plano}`);
-//     console.log(`Tempo = ${tempo}`);
-
-//     calcularPrecoPorMinuto();
-//     calcularTempoExcedente();
-//     calcularValoresFinais();
-
-//     console.log(`precoPorMinuto = ${precoPorMinuto}`);
-//     console.log(`precoPorMinutoPlano = ${precoPorMinutoPlano}`);
-//     console.log(`tempoExcedente = ${tempoExcedente}`);
-//     console.log(`valorFinal = ${valorFinal}`);
-//     console.log(`valorFinalPlano = ${valorFinalPlano}`);
-//     console.log(`msg = ${msg}`);
-// }
-
 const calcularPrecoPorMinuto = () => {
     if (origem === '11') {
         if (destino === '16') { // 011 -> 016
@@ -127,13 +108,6 @@ $botaoCalcular.click(() => {
         $resultado.html(`Valor sem plano = R$ ${valorFinal.toFixed(2)} <br> Valor com plano = R$ ${valorFinalPlano.toFixed(2)}`);
         $('#modalResultado').modal('toggle');
     }
-
-    // console.log(`precoPorMinuto = ${precoPorMinuto}`);
-    // console.log(`precoPorMinutoPlano = ${precoPorMinutoPlano}`);
-    // console.log(`tempoExcedente = ${tempoExcedente}`);
-    // console.log(`valorFinal = ${valorFinal}`);
-    // console.log(`valorFinalPlano = ${valorFinalPlano}`);
-    // console.log(`msg = ${msg}`);
 });
 
 $('.valor').bind('input', e => {
