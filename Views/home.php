@@ -84,8 +84,7 @@
         <p id="resultado"></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-link btn-neutral">Back</button>
-        <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Ok</button>
       </div>
     </div>
   </div>
