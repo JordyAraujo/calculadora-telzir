@@ -166,6 +166,21 @@ const inputMudou = e => {
     switch (target) {
         case 'origem':
             alteraInput($origem);
+            if (origem === "11") {
+                $destino.html(`
+                    <option id="placeholderDestino" value="" disabled>DDD de destino</option>
+                    <option value="16">016</option>
+                    <option value="17">017</option>
+                    <option value="18">018</option>
+                `);
+                $destino.val(destino === "11" ? "" : destino);
+            } else {
+                $destino.html(`
+                    <option id="placeholderDestino" value="" disabled>DDD de destino</option>
+                    <option value="11">011</option>
+                `);
+                $destino.val("11");
+            }
             break;
         case 'destino':
             alteraInput($destino);
