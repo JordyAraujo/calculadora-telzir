@@ -179,6 +179,7 @@ const inputMudou = e => {
                     <option id="placeholderDestino" value="" disabled>DDD de destino</option>
                     <option value="11">011</option>
                 `);
+                alteraInput($destino);
                 $destino.val("11");
             }
             break;
