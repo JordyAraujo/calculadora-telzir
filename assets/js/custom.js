@@ -137,7 +137,7 @@ $botaoCalcular.click(() => {
         calcularPrecoPorMinuto();
         calcularTempoExcedente();
         calcularValoresFinais();
-        $resultado.html(`Valor sem plano = R$${valorFinal} <br> Valor com plano = R$${valorFinalPlano}`);
+        $resultado.html(`Valor sem plano = R$${valorFinal.toFixed(2)} <br> Valor com plano = R$${valorFinalPlano.toFixed(2)}`);
         $('#modalResultado').modal('toggle');
     }
 
