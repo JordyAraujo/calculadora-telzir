@@ -15,7 +15,7 @@
                 <i class="tim-icons icon-single-02"></i>
               </div>
             </div>
-            <select id="origem" class="form-control">
+            <select id="origem" class="form-control valor">
               <option value="" selected disabled>Selecione um DDD de origem</option>
               <option value="11">011</option>
               <option value="16">016</option>
@@ -24,22 +24,26 @@
             </select>
           </div>
           <div class="input-group">
-            <div class="input-group-prepend disabled">
+            <div class="input-group-prepend">
               <div class="input-group-text">
                 <i class="tim-icons icon-email-85"></i>
               </div>
             </div>
-            <select id="destino" class="form-control" disabled>
+            <select id="destino" class="form-control valor">
               <option id="placeholderDestino" value="" selected disabled>Primeiro selecione um DDD de origem</option>
+              <option value="11">011</option>
+              <option value="16">016</option>
+              <option value="17">017</option>
+              <option value="18">018</option>
             </select>
           </div>
           <div class="input-group">
-            <div class="input-group-prepend disabled">
+            <div class="input-group-prepend">
               <div class="input-group-text">
                 <i class="tim-icons icon-lock-circle"></i>
               </div>
             </div>
-            <select id="plano" class="form-control" disabled>
+            <select id="plano" class="form-control valor">
               <option id="placeholderPlano" value="" selected disabled>Primeiro selecione um DDD de origem</option>
               <option value="30">FaleMais 30</option>
               <option value="60">FaleMais 60</option>
@@ -47,7 +51,7 @@
             </select>
           </div>
           <div class="input-group">
-            <div class="input-group-prepend disabled">
+            <div class="input-group-prepend">
               <div class="input-group-text">
                 <i class="tim-icons icon-lock-circle"></i>
               </div>
@@ -57,7 +61,7 @@
         </form>
       </div>
       <div class="card-footer">
-        <button id="botaoCalcular" class="btn btn-primary btn-round btn-lg" data-toggle="modal" data-target="#modalResultado" disabled>
+        <button id="botaoCalcular" class="btn btn-primary btn-round btn-lg">
           Calcular Tarifa
         </button>
       </div>
@@ -73,11 +77,11 @@
           <i class="tim-icons icon-simple-remove text-white"></i>
         </button>
         <div class="modal-profile">
-          <i class="tim-icons icon-single-02"></i>
+          <i class="fas fa-phone"></i>
         </div>
       </div>
       <div class="modal-body">
-        <p id="teste">Always have an access to your profile</p>
+        <p id="resultado"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-link btn-neutral">Back</button>
