@@ -30,7 +30,7 @@
               </div>
             </div>
             <select id="destino" class="form-control valor">
-              <option id="placeholderDestino" value="" selected disabled>Primeiro selecione um DDD de origem</option>
+              <option id="placeholderDestino" value="" selected disabled>Selecione um DDD de destino</option>
               <option value="11">011</option>
               <option value="16">016</option>
               <option value="17">017</option>
@@ -44,7 +44,7 @@
               </div>
             </div>
             <select id="plano" class="form-control valor">
-              <option id="placeholderPlano" value="" selected disabled>Primeiro selecione um DDD de origem</option>
+              <option id="placeholderPlano" value="" selected disabled>Selecione um plano FaleMais</option>
               <option value="30">FaleMais 30</option>
               <option value="60">FaleMais 60</option>
               <option value="120">FaleMais 120</option>
@@ -56,7 +56,7 @@
                 <i class="tim-icons icon-lock-circle"></i>
               </div>
             </div>
-            <input id="tempo" class="form-control valor" placeholder="Primeiro selecione um DDD de origem">
+            <input id="tempo" class="form-control valor" placeholder="Digite a duração da ligação">
           </div>
         </form>
       </div>
