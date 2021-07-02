@@ -8,7 +8,7 @@
         <h4 class="card-title ml-4">telzir</h4>
       </div>
       <div class="card-body">
-        <form class="form">
+        <form class="form" action="javascript:processarDados()">
           <div class="input-group">
             <div class="input-group-prepend">
               <div class="input-group-text">
@@ -61,9 +61,9 @@
         </form>
       </div>
       <div class="card-footer">
-        <button id="botaoCalcular" class="btn btn-primary btn-round btn-lg">
+        <a id="botaoCalcular" href="#" class="btn btn-primary btn-round btn-lg">
           Calcular Tarifa
-        </button>
+        </a>
       </div>
     </div>
   </div>
