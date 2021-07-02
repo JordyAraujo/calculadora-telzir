@@ -31,6 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
   <!-- Nucleo Icons -->
   <link href="<?= BASE_URL ?>assets/css/nucleo-icons.css" rel="stylesheet" />
+  <!-- Font Awesome -->
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <!-- CSS Files -->
   <link href="<?= BASE_URL ?>assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
@@ -112,8 +113,7 @@
             <h1 class="title">Telzir</h1>
           </div>
           <div class="col-md-6">            
-          </div>
-          
+          </div>          
           <div class="col-md-3">
             <div class="btn-wrapper profile pt-4">
               <a target="_blank" href="https://jordyaraujo.github.io/" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Visite meu portfólio">
