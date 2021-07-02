@@ -61,7 +61,7 @@
         </form>
       </div>
       <div class="card-footer">
-        <button id="botaoCalcular" type="button" class="btn btn-primary btn-round btn-lg">
+        <button id="botaoCalcular" class="btn btn-primary btn-round btn-lg">
           Calcular Tarifa
         </button>
       </div>
