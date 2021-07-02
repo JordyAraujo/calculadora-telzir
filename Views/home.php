@@ -56,7 +56,7 @@
                 <i class="tim-icons icon-lock-circle"></i>
               </div>
             </div>
-            <input id="tempo" class="form-control valor" placeholder="Digite a duração da ligação">
+            <input id="tempo" class="form-control valor" placeholder="Digite a duração da ligação (minutos)">
           </div>
         </form>
       </div>
