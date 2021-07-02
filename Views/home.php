@@ -12,7 +12,7 @@
           <div class="input-group">
             <div class="input-group-prepend">
               <div class="input-group-text">
-                <i class="tim-icons icon-single-02"></i>
+              <i class="fas fa-sign-out-alt"></i>
               </div>
             </div>
             <select id="origem" class="form-control valor">
