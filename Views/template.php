@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="robots" content="all,follow">
   <link rel="apple-touch-icon" sizes="76x76" href="<?= BASE_URL ?>assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="<?= BASE_URL ?>assets/img/favicon.png">
+  <link rel="icon" href="<?= BASE_URL ?>assets/img/favicon.ico">
   <title>
     Telzir - Calculadora de Tarifas
   </title>
