@@ -1,4 +1,41 @@
-# Utilizando
+# Calculadora de Tarifas Telzir
+> Aplicação para cálculo de tarifas da Telzir telefonia.
+
+
+## Problema proposto
+
+A empresa de telefonia Telzir, especializada em chamadas de longa distância nacional, vaicolocar um novo produto no mercado chamado FaleMais.Normalmente um cliente Telzir pode fazer uma chamada de uma cidade para outra pagandouma tarifa fixa por minuto, com o preço sendo pré-definido em uma lista com os códigos DDDsde origem e destino:
+
+| Origem | Destino | $/min |
+|--------|---------|-------|
+| 011    | 016     | 1.90  |
+| 016    | 011     | 2.90  |
+| 011    | 017     | 1.70  |
+| 017    | 011     | 2.70  |
+| 011    | 018     | 0.90  |
+| 018    | 011     | 1.90  |
+
+Com o novo produto FaleMais da Telzir o cliente adquire um plano e pode falar de graça atéum determinado tempo (em minutos) e só paga os minutos excedentes. Os minutosexcedentes tem um acréscimo de 10% sobre a tarifa normal do minuto. Os planos sãoFaleMais 30 (30 minutos), FaleMais 60 (60 minutos) e FaleMais 120 (120 minutos).A Telzir, preocupada com a transparência junto aos seus clientes, quer disponibilizar umapágina na web onde o cliente pode calcular o valor da ligação. Ali, o cliente pode escolher oscódigos das cidades de origem e destino, o tempo da ligação em minutos e escolher qual oplano FaleMais. O sistema deve mostrar dois valores: (1) o valor da ligação com o plano e (2)sem o plano. O custo inicial de aquisição do plano deve ser desconsiderado para esteproblema.
+
+Ex:
+| Origem | Destino | Tempo | Plano FaleMais | Com FaleMais | Sem FaleMais |
+|--------|---------|-------|----------------|--------------|--------------|
+| 011    | 016     | 20    | FaleMais 30    | R$ 0.00      | R$ 38.00     |
+| 016    | 011     | 80    | FaleMais 60    | R$ 37.40     | R$ 136.00    |
+| 011    | 017     | 200   | FaleMais 120   | R$ 167.20    | R$ 380.00    |
+| 017    | 011     | 100   | FaleMais 30    | -            | -            |
+
+
+## Solução
+
+Como solução, utilizei uma estrutura simples em PHP que desenvolvi baseada na arquitetura MVC, e que utilizo em meus projetos pessoais. A escolhi pela simplicidade e limpeza do código, me trazendo um processo de desenvolvimento simples e enxuto.
+
+Dada a baixa complexidade do sistema, removi as camadas de modelo, as checagens de usuário e todos os assets não utilizados.
+
+Para o layout do sistema, utilizei a tela de registro do template opensource [BLK• Design System](https://www.creative-tim.com/product/blk-design-system), do designer [Creative Tim](https://www.creative-tim.com/).
+
+
+## Setup de desenvolvimento
 
 Primeiramente, ao clonar o sistema, deve-se rodar em um terminal (certifique-se de ter o [composer](https://getcomposer.org/) instalado no sistema)
 ```
@@ -55,3 +92,7 @@ Diretório com os controladores do sistema. Uma boa prática é nomeá-los de ac
 ### ./assets/
 
 Aqui devem ficar os arquivos auxiliares que serão importados pelo sistema, como css, js e imagens.
+
+## Autor
+
+Jordy Araújo – jordyaraujo@outlook.com
